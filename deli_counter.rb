@@ -8,7 +8,6 @@ def line(katz_deli)
   katz_deli.each do |name|
     binding.pry
     puts "The line is currently: " + katz_deli.index(name) + 1 + "." + name
-    
  
   end
 end
