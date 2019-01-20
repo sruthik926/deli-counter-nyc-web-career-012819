@@ -7,7 +7,7 @@ def line(katz_deli)
   end
   katz_deli.each do |name|
     binding.pry
-   var x = "The line is currently: " + katz_deli.index(name) + 1 + "." + name
+    puts "The line is currently: " + katz_deli.index(name) + 1 + "." + name
     
  
   end
